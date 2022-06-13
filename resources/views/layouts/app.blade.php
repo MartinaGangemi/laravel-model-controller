@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
@@ -13,8 +14,8 @@
        
     </head>
     <body>
-        <header>logo</header>
+        <header>sono un header</header>
         <main>@yield('content')</main>
-        <footer>library 2022</footer>
+        <footer>sono un footer</footer>
     </body>
 </html>
